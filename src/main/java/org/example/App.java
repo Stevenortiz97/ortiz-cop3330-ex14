@@ -11,8 +11,6 @@
 
 package org.example;
 
-import java.text.DecimalFormat;
-
 import java.util.Scanner;
 
 public class App {
@@ -26,7 +24,6 @@ public class App {
     }
 
     public static void main(String[] args) {
-
 
         double cost = cost();
         double taxRate = 0.055;
@@ -47,9 +44,6 @@ public class App {
         double costr = (double) Math.ceil(totalCostr);
         double costF = costr/ 100.0;
 
-
-
         System.out.print("The total is $" +String.format("%.2f",costF)+".");
-
     }
 }
